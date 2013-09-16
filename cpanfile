@@ -1,0 +1,12 @@
+requires "Selenium::Remote::Driver";
+requires "Plack";
+requires "Text::Xslate";
+requires "Text::Xslate::Bridge::TT2Like";
+requires "Path::Class";
+requires "Proc::Guard";
+requires "Test::TCP";
+requires "File::Which";
+requires "Furl";
+requires "JSON";
+requires "URI::Escape";
+requires "Config::YAML";

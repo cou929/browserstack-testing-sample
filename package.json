@@ -1,0 +1,14 @@
+{
+  "name": "jstesting-sample",
+  "version": "0.0.0",
+  "description": "",
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "gitHead": "0edc1faca962385887584488ac1e844848212cf3",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.4"
+  }
+}

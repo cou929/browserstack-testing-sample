@@ -1,0 +1,4 @@
+psgi_app_path: server/app.psgi
+browserstack_jar_path: bin/BrowserStackTunnel.jar
+user_name: test@exmpale.com
+access_key: XXX

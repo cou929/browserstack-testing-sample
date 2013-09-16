@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>test sample</title>
+    <script type="text/javascript">
+      (function(global, undefined) {
+          'use strict';
+          var host = '[% hostname %]';
+          global.test_host = host;
+      })(this);
+    </script>
+    <script type="text/javascript" src="/static/setup.js"></script>
+  </head>
+  <body>
+    <div id="result"></div>
+    <script type="text/javascript">
+      var _app_namespace = _app_namespace || {};
+
+      _app_namespace.type = "BLAHBLAH";
+      _app_namespace.status = 123;
+
+      (function() {
+        var el = document.createElement('script'); el.type = 'text/javascript'; el.async = true;
+        el.src = (('https:' == document.location.protocol) ? 'https://' : 'http://') + test_host + '/test_sample.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(el, s);
+      })();
+    </script>
+  </body>
+</html>
